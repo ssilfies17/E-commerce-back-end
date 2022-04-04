@@ -13,9 +13,10 @@ router.get('/', (req, res) => {
     res.status(200).json(categoryData);
 
   } catch (err) {
-    
+    console.log(err);
+
     res.status(500).json(err);
-  }
+  };
 });
 
 router.get('/:id', (req, res) => {
@@ -24,7 +25,16 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  // create a new category
+  try {
+    const newCategory = await Category.create(req.body);
+
+    res.status(200).json(newCategory);
+
+  } catch (err) {
+    console.log(err);
+
+    res.status(500).json(err);
+  };
 });
 
 router.put('/:id', (req, res) => {
