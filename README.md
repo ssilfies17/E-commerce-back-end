@@ -48,7 +48,7 @@ npm start
     ```bash
     API server running on port 3001!
     ```
-##### Congratualtions! Your node server is running.
+    Congratualtions! Your node server is running.
 
 4. Open your favorite API communicator, such as Insomnia.
 
