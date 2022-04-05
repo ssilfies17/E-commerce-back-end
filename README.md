@@ -35,22 +35,24 @@ npm run seed
 
 ## Usage
 
-1. Open an integrated terminal in the root directory of the project and input the following command: 
+1. User should input their MySQL login information into the `.env` file located in the root directory.
+
+2. Open an integrated terminal in the root directory of the project and input the following command: 
 
 ```bash
 npm start
 ```
 
-2. If the following message appears 
+3. If the following message appears 
 
     ```bash
     API server running on port 3001!
     ```
-    Congratualtions! Your node server is running.
+##### Congratualtions! Your node server is running.
 
-3. Open your favorite API communicator, such as Insomnia.
+4. Open your favorite API communicator, such as Insomnia.
 
-4. Follow along with the routes and various CRUD functions found in `Routes` folder.
+5. Follow along with the routes and various CRUD functions found in `Routes` folder.
 
 ## Credits
 
