@@ -5,7 +5,7 @@ A promising back-end structure for an e-commerce site that utilizes Express ad S
 
 >Check out this video demo for a better insight to how this baby works!
 
-#### ** Demonstration Link: [DEMO]() **
+#### ** Demonstration Link: [DEMO](https://www.awesomescreenshot.com/video/8292856?key=3c1d0de6065c482f495946f523075497) **
 
 
 ## Table of Contents
